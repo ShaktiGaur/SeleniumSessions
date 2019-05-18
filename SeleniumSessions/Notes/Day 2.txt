@@ -1,0 +1,29 @@
+Naming Convention
+1) For Class : 
+Starts with Capital Letter (every word should be in caps)
+example : SeleniumExer(Good), seleniumE (bad) 
+
+2) For Variable :
+**Camel notation** first letter small followed my upper case word
+Example : myStudent, myAge 
+
+Bad: using underscore, ex. my_Student (bad)
+
+3) For Methods (functions) 
+camel notation 
+Example calcuateTime(), calcualteAge()
+
+*******************************************************************************
+
+Steps to cross browser testing
+
+1) Set the System property 
+System.setProperty("webdriver.<write your driver name>.driver",<path of the driver>)
+
+
+Custom Xpaths
+//<tag name>[@<property name>='Value']
+
+
+
+	

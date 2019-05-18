@@ -1,0 +1,26 @@
+For checking css selector in console
+$("tagName[attribute='<value>'])
+
+Xpath => $x("//tagName[@attribute='<value>']")
+
+***Shortcuts of CSS Selector***
+applicable for two things 
+1) Class => format is "tagName.<classNameValue>"
+2) ID => format is "tagName#<IdValue>" 
+
+For Parent Child relationship
+$x("//*[@attribute='<value>'] //*[@attribute='<value>'])
+
+For find siblings
+xpath of parent/following-siblings::tag name
+$x("//*[@attribute='<value>']/following-sibling::tagName")
+
+
+For Table
+"//table[@attribute='Value']/tbody/tr/td"
+
+th - > means header
+tr - > row
+td - > cell
+
+

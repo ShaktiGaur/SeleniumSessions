@@ -1,0 +1,9 @@
+driver.findElements() will return multiple WebElements
+
+Every object on web page is of type WebElement
+
+
+For handling dropdowns (which is having tag name as select)
+
+1) Create a Select object
+2) pass drop down element

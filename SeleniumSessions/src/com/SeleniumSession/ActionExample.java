@@ -3,6 +3,7 @@ package com.SeleniumSession;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -26,14 +27,22 @@ public class ActionExample {
 
 		Actions action = new Actions(driver);
 
-		List<WebElement> links = child.findElements(By.tagName("a"));
+		/*List<WebElement> links = child.findElements(By.tagName("a"));
 
 		for (WebElement link : links) {
 			action.moveToElement(link).build().perform();
 
 			Thread.sleep(5000);
-		}
-
+		}*/
+		
+		//driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Selenium");
+		
+		//action.doubleClick(driver.findElement(By.id("twotabsearchtextbox"))).build().perform();
+		
+		action.click(driver.findElement(By.id("twotabsearchtextbox"))).sendKeys(Keys.SHIFT,"selenium").build().perform();
+//		action.click(driver.findElement(By.id("twotabsearchtextbox"))).keyDown(Keys.SHIFT)//
+		
+		
 	}
 
 }

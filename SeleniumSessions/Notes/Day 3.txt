@@ -1,0 +1,32 @@
+session 2
+//tagName[@<propterty>='value']
+
+
+Session 3
+Regular Expression
+//*[@<propterty>='value'] (this is wild card)
+
+
+
+
+// contains 
+Syntax : //<tagName>[conatins(@<propertyName>,<part of the value>)]
+
+
+//CSS Selector
+
+#email
+
+.^*   u_09_name    endsWith'_name' 
+
+# --> for ID
+
+. --> class
+
+
+
+
+
+
+
+

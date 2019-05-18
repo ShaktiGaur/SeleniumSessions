@@ -1,0 +1,13 @@
+//1. iframes
+
+For handling iframes
+1) Find Iframe
+2) switch to iframe
+    driver.switchTo().frame();
+3) perform the action
+4) come out of the iframe
+	driver.switchTo.defaultContent()
+
+
+
+//2. windows
